@@ -1,0 +1,17 @@
+@       IN      SOA     bind01.vault-cluster.net. admin.vault-cluster.net. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; name servers - NS records
+      IN      NS      bind01.vault-cluster.net.
+
+; PTR Records
+2.25   IN      PTR    consul01.vault-cluster.net.
+3.25   IN      PTR    consul02.vault-cluster.net.
+4.25   IN      PTR    consul03.vault-cluster.net.
+5.25   IN      PTR    vault01.vault-cluster.net.
+6.25   IN      PTR    vault02.vault-cluster.net.
+10.25   IN      PTR    bind01.vault-cluster.net.

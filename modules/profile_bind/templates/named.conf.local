@@ -1,0 +1,9 @@
+zone "vault-cluster.net" {
+    type master;
+    file "/etc/named/zones/db.vault-cluster.net";
+};
+
+zone "16.172.in-addr.arpa" {
+    type master;
+    file "/etc/named/zones/db.172.16";
+};

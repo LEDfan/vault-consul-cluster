@@ -1,0 +1,15 @@
+@       IN      SOA     bind01.vault-cluster.net. admin.vault-cluster.net. (
+                              10        ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800 )   ; Negative Cache TTL
+
+			IN	NS 	bind01.vault-cluster.net.
+bind01.vault-cluster.net.	IN 	A	172.16.25.10
+consul01.vault-cluster.net.	IN 	A	172.16.25.2
+consul02.vault-cluster.net.	IN 	A	172.16.25.3
+consul03.vault-cluster.net.	IN 	A	172.16.25.4
+vault01.vault-cluster.net.	IN 	A	172.16.25.5
+vault02.vault-cluster.net.	IN 	A	172.16.25.6
+vault-leader.vault-cluster.net.  IN      CNAME   active.vault.service.consul.
