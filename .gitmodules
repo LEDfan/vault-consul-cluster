@@ -1,0 +1,15 @@
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib
+[submodule "modules/archive"]
+	path = modules/archive
+	url = https://github.com/voxpupuli/puppet-archive
+[submodule "modules/consul"]
+	path = modules/consul
+	url = https://github.com/solarkennedy/puppet-consul
+[submodule "modules/bind"]
+	path = modules/bind
+	url = https://github.com/thias/puppet-bind
+[submodule "modules/vault"]
+	path = modules/vault
+	url = https://github.com/jsok/puppet-vault
