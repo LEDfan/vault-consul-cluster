@@ -1,0 +1,4 @@
+---
+profile_consul::server::node_addr: 172.16.25.3
+profile_consul::server::node_name: 'consul02'
+profile_consul::server::datacenter: 'dc1'

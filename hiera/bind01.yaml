@@ -1,0 +1,5 @@
+
+---
+profile_consul::agent::node_addr: 172.16.25.10
+profile_consul::agent::node_name: 'bind01'
+profile_consul::agent::datacenter: 'dc1'

@@ -1,0 +1,8 @@
+---
+profile_consul::params::server_nodes:
+  - 172.16.25.2
+  - 172.16.25.3
+  - 172.16.25.4
+profile_consul::params::agent_nodes:
+  - 172.16.25.5
+  - 172.16.25.6

@@ -1,0 +1,6 @@
+
+---
+profile_consul::agent::node_addr: 172.16.25.5
+profile_consul::agent::node_name: 'vatul01'
+profile_consul::agent::datacenter: 'dc1'
+profile_vault::has_tls: false
